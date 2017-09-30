@@ -6,8 +6,8 @@ html {
 .masthead {
   background: url("../images/leaf-bg.svg") repeat #588477;
   background-size: 64px;
-  border-top: 3px solid rgba(16, 52, 41, .8);
-  border-bottom: 3px solid rgba(16, 52, 41, .8);
+  border-top: 3px solid #145b1d;
+  border-bottom: 3px solid #145b1d;
 }
 
 .logo {
@@ -39,8 +39,7 @@ html {
 }
 
 .banner {
-
-  background-image: url("../images/banner.jpg");
+  background-image: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)), url("../images/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -48,11 +47,11 @@ html {
 }
 
 .banner-content {
-  padding-top: 350px;
+  padding-top: 300px;
   background-image: url("../images/two-leaves.svg");
   background-size: 100px auto;
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: 0.75em 180px;
 }
 
 @media only screen and (min-width: 60em) {
